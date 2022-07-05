@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="../styles/styles.css" /> -->
+    <link rel="stylesheet" href="../styles/productos.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!------------------------------------           NAVBAR      ------------------------------------------>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./registro.html">Registro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./productos.html">Productos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./cursos.html">Cursos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-outline-primary" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                />
+              </li>
+              <li>
+                <button class="btn btn-outline-primary" type="submit">
+                  Buscar
+                </button>
+              </li>
+              <li class="nav-item">
+                <!-- <li class="nav-item"> -->
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  >Salir</a
+                >
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------           CONTENIDO DE LOS PRODUCTOS      ------------------------------------------>
+    <main class="cmp-container-productos">
+      <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-evenly">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bluestetic.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fextension-pesta%25C3%25B1a-pelo-a-pelo-seda.jpg&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-0.somosmamas.com.ar%2Fwp-content%2Fuploads%2F2020%2F11%2FPestanas-pelo-a-pelo-1-990x547.jpg&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcuponassets.cuponatic-latam.com%2FbackendCo%2Fuploads%2Fimagenes_descuentos%2F136718%2Fcb925cb041c8642135fee53ce896b6555a9f23b3.XL2.jpg&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vivaspamedellin.com%2Fuploads%2F1%2F3%2F3%2F9%2F13392034%2F7646974.jpg%3F411&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vivaspamedellin.com%2Fuploads%2F1%2F3%2F3%2F9%2F13392034%2F7646974.jpg%3F411&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vivaspamedellin.com%2Fuploads%2F1%2F3%2F3%2F9%2F13392034%2F7646974.jpg%3F411&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vivaspamedellin.com%2Fuploads%2F1%2F3%2F3%2F9%2F13392034%2F7646974.jpg%3F411&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vivaspamedellin.com%2Fuploads%2F1%2F3%2F3%2F9%2F13392034%2F7646974.jpg%3F411&f=1&nofb=1"
+              class="card-img-top size"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

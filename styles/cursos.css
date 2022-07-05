@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cmp-curso-title:hover{
+  background-color: 		#007bff ;
+}
+
+a:hover{
+  color: aliceblue;
+}
+
+table{
+  align-items: center;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 4px 4px 6px 1px rgba(0,0,0,0.76) ;
+  box-shadow: 4px 4px 6px 1px rgba(0,0,0,0.76) ;
+}

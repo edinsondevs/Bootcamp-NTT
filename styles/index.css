@@ -1,0 +1,18 @@
+body{
+  background-image: url(https://www.eusemfronteiras.com.br/wp-content/uploads/2019/09/47188929_m.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-top: 50vh;
+  margin-left: 70vw;
+}
+
+.btn-primary{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 2.5em;
+  width: 20em;
+  background-color: rgb(36, 35, 34);
+  border: none;
+  
+}

@@ -1,0 +1,21 @@
+.layout {
+  /* width: 1366px; */
+  height: 768px;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcuponcity.ec%2Fimg%2Fofertas%2F950x540%2Fplat-web-66.jpg&f=1&nofb=1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / 1fr 100vh;
+  gap: 8px;
+}
+
+.sidebar { 
+  grid-area: sidebar; 
+}
+.body { 
+  grid-area: body; 
+  /* align-content: center; */
+  margin-top: 25vh;
+}
