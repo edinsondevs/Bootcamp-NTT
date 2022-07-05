@@ -1,3 +1,11 @@
-# web-platform-pgi1p5
+# :computer: FullStack Talent Camp :computer: #
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-pgi1p5)
+<br>
+:books: Ejercicios práctica Fullstack Talent Camp NTT DATA 
+
+
+Acá se cargaran las tareas y ejercicios realizados en el Talent Camp, para su revision y cometarios al respecto.
+
+<br>
+
+Muchos Exitos en este proceso 
